@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+	<meta charset="UTF-8">
+	<title>チーム規則</title>
+  
+    </head>
+    <body>
+      
+        <h1><font face="Comic Sans MS">Chrono Memoryチーム規則</font> </h1> <font color="green">※クリックで切り替え</font>
+    </body>
+      
+<form>
+  <style>
+  .btn-gradient-radius {
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 35px;
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  background-image: linear-gradient(45deg, #07ff07 0%, #c2ff5f 100%);
+  transition: .4s;
+}
+
+.btn-gradient-radius:hover {
+  background-image: linear-gradient(45deg, #0fff07 0%, #c3f735 100%);
+}
+</style>
+<a href="#" class="btn-gradient-radius" onclick="reWrite(1)">
+  <i class="fa fa-chevron-right"></i> チームの方向性
+</a>
+<a href="#" class="btn-gradient-radius" onclick="reWrite(2)">
+  <i class="fa fa-chevron-right"></i> 倫理に関する規則
+</a>
+<a href="#" class="btn-gradient-radius" onclick="reWrite(3)">
+  <i class="fa fa-chevron-right"></i> チャットに関する規則
+</a>
+<a href="#" class="btn-gradient-radius" onclick="reWrite(4)">
+  <i class="fa fa-chevron-right"></i> トラブルに関する規則
+</a>
+<a href="#" class="btn-gradient-radius" onclick="reWrite(5)">
+  <i class="fa fa-chevron-right"></i> チーム間の交流に関する規則
+</a>
+<a href="#" class="btn-gradient-radius" onclick="reWrite(6)">
+  <i class="fa fa-chevron-right"></i>役職に関する規則
+</a>
+<a href="#" class="btn-gradient-radius" onclick="reWrite(7)">
+  <i class="fa fa-chevron-right"></i> チームイベントに関する規則
+</a>
+<a href="#" class="btn-gradient-radius" onclick="reWrite(8)">
+  <i class="fa fa-chevron-right"></i> その他
+</a>
+    </form>
+    	
+    <div class="bg_pattern Lines_v4"></div>
+      <style>
+       .bg_pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #09f758;
+  opacity: 0.4;
+  z-index: -1;
+}
+.Lines_v4 {
+  background-size: 50px 60px;
+  background-image:  repeating-linear-gradient(to right, #07b9ff, #07ffff 2px, #a9e8f8 2px, #a7e3ff);
+}
+      </style>
+    </div>
+    <div id="str">見たい規則を選択してください</div>
+    <div id="sstr"></div>
+    <div id="ssstr"></div>
+    <div id="sssstr"></div>
+    <div id="ssssstr"></div>
+    <div id="sssssstr"></div>
+    <div id="ssssssstr"></div>
+    <div id="sssssssstr"></div>
+    
+    <script>
+    
+    function reWrite(num)
+    {
+      if (document.getElementById)
+      {
+        if (num==1)
+        {
+          document.getElementById("str").textContent="①現実、実生活を最優先する";
+          document.getElementById("sstr").textContent="②お互いに助け合える環境を作る";
+          document.getElementById("ssstr").textContent="③明るく楽しいチームを目指す。";
+          document.getElementById("sssstr").textContent="";
+            document.getElementById("ssssstr").textContent="";
+            document.getElementById("ssssstr").textContent="";
+            document.getElementById("sssssstr").textContent="";
+            document.getElementById("ssssssstr").textContent="";
+            document.getElementById("sssssssstr").textContent="";
+        }
+        else if(num==2){
+            document.getElementById("str").textContent="・個人的に設けた基準を他人に押し付けない。";
+            document.getElementById("sstr").textContent="・プレイヤーへの誹謗中傷またはそれに準ずる行為は禁止する";
+            document.getElementById("ssstr").textContent="";
+            document.getElementById("sssstr").textContent="";
+            document.getElementById("ssssstr").textContent="";
+            document.getElementById("ssssstr").textContent="";
+            document.getElementById("sssssstr").textContent="";
+            document.getElementById("ssssssstr").textContent="";
+            document.getElementById("sssssssstr").textContent="";
+        }
+        else if(num==3){
+            document.getElementById("str").textContent="・全てのチャットで、人格攻撃、誹謗中傷等聞いている人が不快になるような発言をしてはならない。また、政治に関する発言もトラブルの原因になりやすいため、原則として禁止する。";
+            document.getElementById("sstr").textContent="・｢白チャ｣では、公共の場での発言であることを自覚し、発言を行う。ただし、ブロックによって発言の自由度が違うことがあるため、十分注意する。誹謗中傷、特定の人物を否定するような発言は固く禁じる。";
+            document.getElementById("ssstr").textContent="・｢チームチャット｣は、チームメンバーとの交流、雑談。チームの盛り上げ等に積極的に使用していくことを推奨する。";
+            document.getElementById("sssstr").textContent="・｢グループチャット｣の作成は自由だが、チーム、実生活、自分自身に悪影響を及ぼさないように十分注意する。";
+            document.getElementById("ssssstr").textContent="｢ウィスパーチャット｣は、1対1の会話であることを自覚し、慎重に発言を行う。";
+            document.getElementById("sssssstr").textContent="";
+            document.getElementById("ssssssstr").textContent="";
+            document.getElementById("sssssssstr").textContent="";
+        }
+        else if(num==4){
+            document.getElementById("str").textContent="・チームメンバー間あるいは外部とのトラブルが発生した場合、その内容を即座にチームマスターに報告する。";
+            document.getElementById("sstr").textContent="・チーム間の環境、居心地を著しく害する行為(チームメンバーに対して暴言を吐く、現実で会うことを執拗に求める等)を行う者には事実確認の後警告を行い、3回の警告で改善が見られない場合はマネージャーとチームマスターで議論を行い、追放あるいは降格処分を行う。";
+            document.getElementById("ssstr").textContent="";
+            document.getElementById("sssstr").textContent="";
+            document.getElementById("ssssstr").textContent="";
+            document.getElementById("ssssstr").textContent="";
+            document.getElementById("sssssstr").textContent="";
+            document.getElementById("ssssssstr").textContent="";
+            document.getElementById("sssssssstr").textContent="";
+        }
+        else if(num==5){
+            document.getElementById("str").textContent="・ログイン、ログアウト時は挨拶を行う。ただしログイン後5分以内でログアウトを行う場合は、挨拶の有無は自由とする。";
+            document.getElementById("sstr").textContent="・チーム間でのボイスチャットの使用は原則として禁止する。";
+            document.getElementById("ssstr").textContent="・チームメンバー同士で実際に会う事は基本的に禁止とする。";
+            document.getElementById("sssstr").textContent="・初心者、困っている人への助言、手助けを積極的に行う。";
+            document.getElementById("ssssstr").textContent="";
+            document.getElementById("ssssstr").textContent="";
+            document.getElementById("sssssstr").textContent="";
+            document.getElementById("ssssssstr").textContent="";
+            document.getElementById("sssssssstr").textContent="";
+
+        }
+        else if(num==6){
+            document.getElementById("str").textContent="・｢チームマスター」は、チームの方向性を決め、運営、チームイベントの計画、実行などチームを実際に動かす役割を持つ。また、チームの治安維持、快適性の向上に努める。";
+            document.getElementById("sstr").textContent="・｢マネージャー｣は、チムイベの際にパーティーリーダーを担う。ただし、以下の場合はこの限りでは無い。";
+            document.getElementById("ssstr").textContent="①事前にパーティリーダーが決定している場合";
+            document.getElementById("sssstr").textContent="②仕事、体調不良等現実での事情でチームイベントへの参加が困難な場合え";
+            document.getElementById("ssssstr").textContent="③クラウド版等他のプラットフォームとの意思疎通が困難な環境である場合";
+            document.getElementById("sssssstr").textContent="・｢チームマスター、マネージャー、コモンメンバー、ビジター｣は、チームの機能を使う権利を持つ。";
+            document.getElementById("ssssssstr").textContent="・｢チームマスター、マネージャー、コモンメンバー、ビジター｣は、チームイベントへ参加する権利を持つ。";
+            document.getElementById("sssssssstr").textContent="";
+        }
+        else if(num==7){
+            document.getElementById("str").textContent="・チームイベントは、毎月第一土曜日に開催する。ただし、お盆期間、正月期間、長期休暇(土日祝合わせて4連休以上)中は行わない。";
+            document.getElementById("sstr").textContent="・チームイベントへの参加条件は";
+            document.getElementById("ssstr").textContent="①戦闘力1184以上(NGSでのイベント限定)";
+            document.getElementById("sssstr").textContent="②旧PSO2側で、レベルが85以上の通常クラスが2つ以上あるいはレベル85以上の後継クラスが1つ以上存在している(旧PSO2イベント限定)";
+            document.getElementById("ssssstr").textContent="③武器を装備している";
+            document.getElementById("sssssstr").textContent="④防具、ユニットを3箇所全て装備している";
+            document.getElementById("ssssssstr").textContent="⑤ストーリー第1部をクリアしている(NGSでのイベント限定)";
+            document.getElementById("sssssssstr").textContent="とする。ただし、イベント内容が新人歓迎会、会議、採取ツアー等戦闘を行わないもの、レベル上げ、初心者支援等全員が対象である場合は免除する。";
+        }
+        else if(num==8){
+            document.getElementById("str").textContent="・チーム倉庫にNPCショップで購入出来るもの(モノメイト、ムーンアトマイザー等)をおかない。";
+            document.getElementById("sstr").textContent="・チーム倉庫内のアイテムについては、常識の範囲内で取得、使用すること。";
+            document.getElementById("ssstr").textContent="";
+            document.getElementById("sssstr").textContent="";
+            document.getElementById("ssssstr").textContent="";
+            document.getElementById("ssssstr").textContent="";
+            document.getElementById("sssssstr").textContent="";
+            document.getElementById("ssssssstr").textContent="";
+            document.getElementById("sssssssstr").textContent="";
+        }
+        else{
+          document.getElementById("str").innerHTML="見たい規則を選択してください";
+        }  
+      }
+    }
+    
+    </script>
+</html>
